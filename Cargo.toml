@@ -17,3 +17,5 @@ name = "day03"
 path = "src/day03.rs"
 
 [dependencies]
+regex = "1"
+lazy_static ="1"
