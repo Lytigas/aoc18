@@ -54,6 +54,7 @@ fn main() {
     println!("{}", ct2);
 
     let mut result_id = 0;
+    // todo: rewrite with labelled breaks?
     let mut result = || {
         claims.iter().for_each(|c| {
             for i in c.x..c.x + c.w {
